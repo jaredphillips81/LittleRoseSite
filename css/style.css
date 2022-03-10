@@ -1,12 +1,23 @@
 
 h1{
     display:flex;
-    font-family:monospace;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 39px;
     color: goldenrod;
+    text-shadow: 5px;
+    padding-bottom: 2rem;
+    justify-content: center;
+}
+.eventCalendarHeader{
+    display: flex;
+    justify-content: center;
 }
 body{
-    background-image: url("IMG_1784.jpg");
+    background-image: url("roseBackground.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .topnav{
     display: flex;
@@ -15,7 +26,8 @@ body{
 }
 a{
     text-decoration: none;
-    color: rgb(4, 4, 250);
+    color: rgb(36, 36, 206);
     font-family:Arial, Helvetica, sans-serif;
-    font-size: large;
+    font-size: x-large;
+    padding-bottom: 2rem;
 }
